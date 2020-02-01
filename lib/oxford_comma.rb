@@ -15,3 +15,7 @@ def oxford_comma(array)
       new_list << ", and #{last_word}"
     end
 end
+
+def oxford_comma(array)
+  array.join
+end
