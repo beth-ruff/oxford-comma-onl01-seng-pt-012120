@@ -16,6 +16,3 @@ def oxford_comma(array)
     end
 end
 
-def oxford_comma(array)
-  array.join
-end
