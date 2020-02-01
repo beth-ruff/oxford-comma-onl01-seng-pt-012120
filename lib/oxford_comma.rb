@@ -7,5 +7,5 @@ def oxford_comma(array)
 end
 
 def oxford_common(array)
-  array.join(" , " " , " " and ")
+ 
 end
