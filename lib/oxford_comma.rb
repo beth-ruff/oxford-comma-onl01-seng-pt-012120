@@ -7,6 +7,7 @@ def oxford_comma(array)
 end
 
 def oxford_common(array)
-    list[-1] = "and" + list[-1]
-    list.join(",")
+    if array.length == 3 
+      return list.join(" , ")
+      list[-1] = "and" + list[-1]
 end
