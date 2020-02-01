@@ -9,11 +9,9 @@ end
 def oxford_common(array)
     if array.size == 2 
       array.join(" and ")
-    elsif array.size > 2 
+    else array.size > 2 
       last_word = array.pop
     new_list = array.join(", ")
       new_list << ", and #{last_word}"
-    else
-      array.join
     end
 end
