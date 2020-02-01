@@ -7,7 +7,5 @@ def oxford_comma(array)
 end
 
 def oxford_common(array)
-    if array.length == 3 
-      return list.join(" , ")
-    end
+    array.join(" , ")
 end
